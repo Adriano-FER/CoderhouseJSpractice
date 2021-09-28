@@ -1,0 +1,252 @@
+body{
+    background-image: url("https://c.wallhere.com/photos/2d/76/1920x1080_px_logo_Mortal_Kombat_video_games-710652.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background-color: transparent;
+    opacity: 0.9;
+    color:blanchedalmond;
+    width: 18rem;
+    text-align: center;
+
+}
+.alert{
+    background-color: transparent;
+    color: white;
+    border:none;
+    font-size: xx-large;
+}
+.texto{
+    color: red;
+  }  
+
+.progress{
+  height:50px;
+  width:100%;
+  background-color: red;
+}
+
+.progress-bar {
+  background-color: green;
+  
+    font-size: xx-large;
+    color: yellow;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+i{
+  color: white;
+}
+#healthrow{
+  min-height: 15px;
+ 
+}
+.d-flex{
+    justify-content: space-around
+}
+h5{
+  text-align: right;
+  padding-right: 10%;
+}
+
+img{
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 400px;
+    max-height: 500px;
+}
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:0.9;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:0.9;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:0.9;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:0.9;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:0.9;
+  }
+}
+
+  .fade-out {
+    animation: fadeOut ease 3s;
+    -webkit-animation: fadeOut ease 3s;
+    -moz-animation: fadeOut ease 3s;
+    -o-animation: fadeOut ease 3s;
+    -ms-animation: fadeOut ease 3s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity:0.9;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:0.9;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:0.9;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:0.9;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:0.9;
+    }
+    100% {
+      opacity:0;
+  }
+}
+
+.slide-right {
+	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(40vh);
+              transform: translateX(40vh);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(40vh);
+              transform: translateX(40vh);
+    }
+  }
+
+ 
+
+  .slide-left {
+	-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-40vh);
+              transform: translateX(-40vh);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-40vh);
+              transform: translateX(-40vh);
+    }
+  }
+  
+  button {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color:#eae0c2;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:11px 21px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    
+  }
+  button:hover {
+    background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color:#ccc2a6;
+  }
+  button:active {
+    position:relative;
+    top:1px;
+  }
+
+  .text-yellow{
+    color:sandybrown;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    padding-top: 12%;
+  }
+  
+  

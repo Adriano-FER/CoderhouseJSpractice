@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://images.alphacoders.com/271/thumb-1920-271571.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background-color: black;
+    color:blanchedalmond;
+}
+.texto{
+    color:cornsilk
+}
+.d-flex{
+    justify-content: space-around
+}

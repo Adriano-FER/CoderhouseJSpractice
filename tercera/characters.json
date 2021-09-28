@@ -1,0 +1,21 @@
+{
+    "characters":[
+    {"id":0,
+    "alias":"SCORPION",
+    "name":"Hanzo Hasashi",
+    "realm":"Netherrealm",
+    "fatality":"Toasty",
+    "alive":true,
+    "img":"extras/scorpion_card.png",
+    "stadistics":{"hitpoints":80,"defense":20,"attack":60}},{"id":1,"alias":"SUB-ZERO","name":"Kuai Liang","realm":"Earthrealm",
+        "fatality":"Spine Rip","alive":true,
+        "img":"extras/subzero-card.png","stadistics":{"hitpoints":150,"defense":30,"attack":40}},
+    {"id":2,"alias":"KITANA",
+        "name":"Kitana Kahn",
+        "realm":"Outworld",
+        "fatality":"Kiss of Death",
+        "alive":true,
+        "img":"extras/kitana_card.png","stadistics":{"hitpoints":50,"defense":30,"attack":50}}
+    
+    ]
+}
